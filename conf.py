@@ -108,6 +108,7 @@ else:
         odoo_dir_in_path = True
 
 model_reference = {
+    'account.account.type': 'addons/account/data/data_account_type.xml',
     'res.country': 'odoo/addons/base/data/res_country_data.xml',
     'res.currency': 'odoo/addons/base/data/res_currency_data.xml',
 }
